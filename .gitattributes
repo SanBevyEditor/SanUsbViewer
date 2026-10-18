@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.ttf binary
+*.otf binary
+*.jpg binary
+# Preserve upstream license files byte for byte for source hash verification.
+assets/fonts/OFL*.txt -text

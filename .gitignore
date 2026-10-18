@@ -1,0 +1,33 @@
+/target/
+/dist/
+/artifacts/
+*.log
+
+# Local inventories, exports and preferences may contain hardware identifiers.
+/reports/
+/exports/
+/screenshots/
+/SanUsbViewer.jpg
+preferences.json
+scan.json
+
+# Credentials and machine-specific configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+/.codex/
+/.agents/
+.vscode/
+.idea/
+
+# Python caches and virtual environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
