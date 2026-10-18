@@ -6,6 +6,8 @@
 
 **လက်ရှိဗားရှင်း- `0.2.0`** — MIT လိုင်စင်။
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 မှောင်မိုက်သော မျက်နှာပြင်၊ အမြင်ဆိုင်ရာ ပေါ်လစီနှင့် ဖတ်နိုင်သော ရောဂါရှာဖွေမှုများပါရှိသော **Rust** ဖြင့် ရေးသားထားသော မူရင်း USB Explorer Windows 10/11 အတွက် ရည်ရွယ်သည့် ပထမဗားရှင်း။
@@ -42,7 +44,7 @@ Rust **1.95+** ဖြင့် Windows ရှိ MSVC toolchain နှင့် 
 rtk cargo run --release
 ```
 
-standalone binary ကို `target/release/san-usb-viewer.exe` တွင် ထုတ်လုပ်သည်။ `build.ps1` script သည် `dist/SanUsbViewer/` တွင်လည်း ဖြန့်ဖြူးမှုကို ဖန်တီးပေးပါသည်။ စာရင်းအတွက် WinUSB ၏ ယာဉ်မောင်း ပြုပြင်မွမ်းမံခြင်း သို့မဟုတ် တပ်ဆင်ခြင်း မလိုအပ်ပါ- အပလီကေးရှင်းသည် စက်ပစ္စည်းကြားခံများ မလိုအပ်ပါ။
+standalone binary ကို `target/release/san-usb-viewer.exe` တွင် ထုတ်လုပ်သည်။ `build.ps1` script သည် `dist/` တွင်လည်း ဖြန့်ဖြူးမှုကို ဖန်တီးပေးပါသည်။ စာရင်းအတွက် WinUSB ၏ ယာဉ်မောင်း ပြုပြင်မွမ်းမံခြင်း သို့မဟုတ် တပ်ဆင်ခြင်း မလိုအပ်ပါ- အပလီကေးရှင်းသည် စက်ပစ္စည်းကြားခံများ မလိုအပ်ပါ။
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

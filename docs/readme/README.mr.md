@@ -6,6 +6,8 @@
 
 **वर्तमान आवृत्ती: `0.2.0`** — MIT परवाना.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 गडद इंटरफेस, व्हिज्युअल टोपोलॉजी आणि वाचनीय निदानासह **रस्ट** मध्ये लिहिलेले मूळ USB एक्सप्लोरर. Windows 10/11 साठी अभिप्रेत असलेली पहिली आवृत्ती.
@@ -42,7 +44,7 @@ Rust **1.95+** सह, MSVC टूलचेन आणि Windows वर Visual S
 rtk cargo run --release
 ```
 
-स्टँडअलोन बायनरी `target/release/san-usb-viewer.exe` मध्ये तयार केली जाते. `build.ps1` स्क्रिप्ट `dist/SanUsbViewer/` मध्ये वितरण देखील तयार करते. इन्व्हेंटरीसाठी कोणतेही ड्रायव्हर बदल किंवा WinUSB ची स्थापना आवश्यक नाही: अनुप्रयोगास डिव्हाइस इंटरफेसची आवश्यकता नाही.
+स्टँडअलोन बायनरी `target/release/san-usb-viewer.exe` मध्ये तयार केली जाते. `build.ps1` स्क्रिप्ट `dist/` मध्ये वितरण देखील तयार करते. इन्व्हेंटरीसाठी कोणतेही ड्रायव्हर बदल किंवा WinUSB ची स्थापना आवश्यक नाही: अनुप्रयोगास डिव्हाइस इंटरफेसची आवश्यकता नाही.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

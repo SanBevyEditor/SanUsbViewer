@@ -6,6 +6,8 @@
 
 ** Nooca hadda: `0.2.0` *** - shatiga MIT.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 Dhaladka USB Explorer oo ku qoran **Rust**, oo leh isdhexgal mugdi ah, muuqaal muuqaal ah iyo ogaanshaha la akhriyi karo. Nooca koowaad ee loogu talagalay Windows 10/11.
@@ -42,7 +44,7 @@ Rust **1.95+**, Qalabka MSVC iyo Visual Studio C++ ee Windows. Tusaalooyinka wax
 rtk cargo run --release
 ```
 
-Binary-ga goonida ah waxaa lagu soo saaray `target/release/san-usb-viewer.exe`. Qoraalka `build.ps1` wuxuu kaloo abuuraa qaybinta `dist/SanUsbViewer/`. Ma jiro wax ka beddelka darawalka ama rakibidda WinUSB lagama maarmaan u ah agabka: codsigu uma baahna interfaces aaladda.
+Binary-ga goonida ah waxaa lagu soo saaray `target/release/san-usb-viewer.exe`. Qoraalka `build.ps1` wuxuu kaloo abuuraa qaybinta `dist/`. Ma jiro wax ka beddelka darawalka ama rakibidda WinUSB lagama maarmaan u ah agabka: codsigu uma baahna interfaces aaladda.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

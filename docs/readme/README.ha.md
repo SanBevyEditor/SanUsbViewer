@@ -6,6 +6,8 @@
 
 ** Sigar yanzu: `0.2.0` *** - lasisin MIT.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 USB Explorer na asali wanda aka rubuta a cikin ** Tsatsa ***, tare da dubawa mai duhu, yanayin gani da bincike mai karantawa. Sigar farko da aka yi niyya don Windows 10/11.
@@ -42,7 +44,7 @@ Tare da Tsatsa **1.95+**, kayan aikin MSVC da kayan aikin Kayayyakin Kayayyakin 
 rtk cargo run --release
 ```
 
-Ana samar da binary na tsaye a cikin `target/release/san-usb-viewer.exe`. Rubutun `build.ps1` kuma yana ƙirƙirar rarrabawa a cikin `dist/SanUsbViewer/`. Babu gyare-gyaren direba ko shigarwa na WinUSB da ya zama dole don ƙira: aikace-aikacen baya buƙatar mu'amalar na'ura.
+Ana samar da binary na tsaye a cikin `target/release/san-usb-viewer.exe`. Rubutun `build.ps1` kuma yana ƙirƙirar rarrabawa a cikin `dist/`. Babu gyare-gyaren direba ko shigarwa na WinUSB da ya zama dole don ƙira: aikace-aikacen baya buƙatar mu'amalar na'ura.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

@@ -6,6 +6,8 @@
 
 **वर्तमान संस्करण: `0.2.0`** — MIT लाइसेंस।
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 नेटिव USB एक्सप्लोरर **रस्ट** में लिखा गया है, एक डार्क इंटरफ़ेस, विज़ुअल टोपोलॉजी और पठनीय डायग्नोस्टिक्स के साथ। पहला संस्करण विंडोज़ 10/11 के लिए अभिप्रेत है।
@@ -42,7 +44,7 @@
 rtk cargo run --release
 ```
 
-स्टैंडअलोन बाइनरी `target/release/san-usb-viewer.exe` में निर्मित होती है। `build.ps1` स्क्रिप्ट `dist/SanUsbViewer/` में एक वितरण भी बनाती है। इन्वेंट्री के लिए कोई ड्राइवर संशोधन या WinUSB की स्थापना आवश्यक नहीं है: एप्लिकेशन को डिवाइस इंटरफेस की आवश्यकता नहीं है।
+स्टैंडअलोन बाइनरी `target/release/san-usb-viewer.exe` में निर्मित होती है। `build.ps1` स्क्रिप्ट `dist/` में एक वितरण भी बनाती है। इन्वेंट्री के लिए कोई ड्राइवर संशोधन या WinUSB की स्थापना आवश्यक नहीं है: एप्लिकेशन को डिवाइस इंटरफेस की आवश्यकता नहीं है।
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

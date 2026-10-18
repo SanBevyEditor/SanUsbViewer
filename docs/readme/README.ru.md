@@ -6,6 +6,8 @@
 
 **Текущая версия: `0.2.0`** — лицензия MIT.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 Собственный USB Explorer, написанный на **Rust**, с темным интерфейсом, визуальной топологией и читаемой диагностикой. Первая версия предназначена для Windows 10/11.
@@ -42,7 +44,7 @@ SuperSpeed Возможности заявленного устройства. �
 rtk cargo run --release
 ```
 
-Автономный двоичный файл создается в `target/release/san-usb-viewer.exe`. Скрипт `build.ps1` также создает дистрибутив в `dist/SanUsbViewer/`. Для инвентаризации не требуется модификация драйверов или установка WinUSB: приложению не требуются интерфейсы устройств.
+Автономный двоичный файл создается в `target/release/san-usb-viewer.exe`. Скрипт `build.ps1` также создает дистрибутив в `dist/`. Для инвентаризации не требуется модификация драйверов или установка WinUSB: приложению не требуются интерфейсы устройств.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

@@ -6,6 +6,8 @@
 
 **현재 버전: `0.2.0`** — MIT 라이센스.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 어두운 인터페이스, 시각적 토폴로지 및 판독 가능한 진단 기능을 갖춘 **Rust**로 작성된 기본 USB 탐색기. Windows 10/11용 첫 번째 버전입니다.
@@ -42,7 +44,7 @@ Rust **1.95+**를 사용하면 Windows에서 MSVC 도구 체인 및 Visual Studi
 rtk cargo run --release
 ```
 
-독립 실행형 바이너리는 `target/release/san-usb-viewer.exe`에서 생성됩니다. `build.ps1` 스크립트는 또한 `dist/SanUsbViewer/`에 배포판을 생성합니다. 인벤토리를 위해 드라이버 수정이나 WinUSB 설치가 필요하지 않습니다. 애플리케이션에는 장치 인터페이스가 필요하지 않습니다.
+독립 실행형 바이너리는 `target/release/san-usb-viewer.exe`에서 생성됩니다. `build.ps1` 스크립트는 또한 `dist/`에 배포판을 생성합니다. 인벤토리를 위해 드라이버 수정이나 WinUSB 설치가 필요하지 않습니다. 애플리케이션에는 장치 인터페이스가 필요하지 않습니다.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

@@ -6,6 +6,8 @@
 
 ** Ẹya lọwọlọwọ: `0.2.0` *** - iwe-aṣẹ MIT.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 Abinibi USB Explorer ti a kọ sinu ** Rust ***, pẹlu wiwo dudu, topology wiwo ati awọn iwadii kika. Ẹya akọkọ ti a pinnu fun Windows 10/11.
@@ -42,7 +44,7 @@ Pẹlu Rust ** 1.95+**, ohun elo irinṣẹ MSVC ati awọn irinṣẹ Studio Vi
 rtk cargo run --release
 ```
 
-Alakomeji imurasilẹ jẹ iṣelọpọ ni `target/release/san-usb-viewer.exe`. Iwe afọwọkọ `build.ps1` tun ṣẹda pinpin ni `dist/SanUsbViewer/`. Ko si iyipada awakọ tabi fifi sori ẹrọ ti WinUSB jẹ pataki fun akojo oja: ohun elo ko nilo awọn atọkun ẹrọ.
+Alakomeji imurasilẹ jẹ iṣelọpọ ni `target/release/san-usb-viewer.exe`. Iwe afọwọkọ `build.ps1` tun ṣẹda pinpin ni `dist/`. Ko si iyipada awakọ tabi fifi sori ẹrọ ti WinUSB jẹ pataki fun akojo oja: ohun elo ko nilo awọn atọkun ẹrọ.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

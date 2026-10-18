@@ -6,6 +6,8 @@
 
 **当前版本：`0.2.0`** — MIT 许可证。
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 用 **Rust** 编写的本机 USB 资源管理器，具有深色界面、可视拓扑和可读诊断。第一个版本适用于 Windows 10/11。
@@ -42,7 +44,7 @@
 rtk cargo run --release
 ```
 
-独立的二进制文件在 `target/release/san-usb-viewer.exe` 中生成。 `build.ps1` 脚本还在 `dist/SanUsbViewer/` 中创建一个发行版。清单无需修改驱动程序或安装 WinUSB：应用程序不需要设备接口。
+独立的二进制文件在 `target/release/san-usb-viewer.exe` 中生成。 `build.ps1` 脚本还在 `dist/` 中创建一个发行版。清单无需修改驱动程序或安装 WinUSB：应用程序不需要设备接口。
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

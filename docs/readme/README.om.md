@@ -6,6 +6,8 @@
 
 **Vorshinii ammaa: `0.2.0`** — Hayyama MIT.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 Native USB Explorer **Rust** tiin barreeffame, interfeesii dukkanaa'aa, toopoloojii mul'ataa fi adda baasuu dubbifamuu danda'u qaba. Vershinii jalqabaa Windows 10/11f yaadame.
@@ -42,7 +44,7 @@ Rust **1.95+** waliin, meeshaalee MSVC fi meeshaalee Visual Studio C++ Windows i
 rtk cargo run --release
 ```
 
-Baayinariin of danda'e `target/release/san-usb-viewer.exe` keessatti oomishama. Iskiriiptiin `build.ps1` akkasumas raabsa `dist/SanUsbViewer/` keessatti uuma. Fooyya'iinsi konkolaachisaa ykn fe'iinsi WinUSB kamiyyuu inventariif hin barbaachisu: aplikeeshiniin walqunnamsiistota meeshaa hin barbaadu.
+Baayinariin of danda'e `target/release/san-usb-viewer.exe` keessatti oomishama. Iskiriiptiin `build.ps1` akkasumas raabsa `dist/` keessatti uuma. Fooyya'iinsi konkolaachisaa ykn fe'iinsi WinUSB kamiyyuu inventariif hin barbaachisu: aplikeeshiniin walqunnamsiistota meeshaa hin barbaadu.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

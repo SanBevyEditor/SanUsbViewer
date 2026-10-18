@@ -6,6 +6,8 @@
 
 **Mevcut sürüm: `0.2.0`** — MIT lisansı.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 **Rust** ile yazılmış, karanlık bir arayüze, görsel topolojiye ve okunabilir tanılamalara sahip yerel USB Explorer. Windows 10/11 için tasarlanan ilk sürüm.
@@ -42,7 +44,7 @@ Rust **1.95+**, MSVC araç zinciri ve Windows'ta Visual Studio C++ araçlarıyla
 rtk cargo run --release
 ```
 
-Bağımsız ikili dosya `target/release/san-usb-viewer.exe`'de üretilir. `build.ps1` betiği ayrıca `dist/SanUsbViewer/`'de bir dağıtım oluşturur. Envanter için herhangi bir sürücü değişikliği veya WinUSB kurulumu gerekli değildir: uygulama, cihaz arayüzleri gerektirmez.
+Bağımsız ikili dosya `target/release/san-usb-viewer.exe`'de üretilir. `build.ps1` betiği ayrıca `dist/`'de bir dağıtım oluşturur. Envanter için herhangi bir sürücü değişikliği veya WinUSB kurulumu gerekli değildir: uygulama, cihaz arayüzleri gerektirmez.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

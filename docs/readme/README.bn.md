@@ -6,6 +6,8 @@
 
 **বর্তমান সংস্করণ: `0.2.0`** — MIT লাইসেন্স।
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 ডার্ক ইন্টারফেস, ভিজ্যুয়াল টপোলজি এবং পঠনযোগ্য ডায়াগনস্টিক সহ **মরিচা** এ লেখা নেটিভ ইউএসবি এক্সপ্লোরার। উইন্ডোজ 10/11 এর জন্য প্রথম সংস্করণ।
@@ -42,7 +44,7 @@ Rust **1.95+** সহ, MSVC টুলচেন এবং Windows এ ভিজ�
 rtk cargo run --release
 ```
 
-স্বতন্ত্র বাইনারি `target/release/san-usb-viewer.exe` এ উত্পাদিত হয়। `build.ps1` স্ক্রিপ্ট `dist/SanUsbViewer/`-এ একটি বিতরণও তৈরি করে। ইনভেন্টরির জন্য WinUSB-এর কোনো ড্রাইভার পরিবর্তন বা ইনস্টলেশনের প্রয়োজন নেই: অ্যাপ্লিকেশনটির ডিভাইস ইন্টারফেসের প্রয়োজন নেই।
+স্বতন্ত্র বাইনারি `target/release/san-usb-viewer.exe` এ উত্পাদিত হয়। `build.ps1` স্ক্রিপ্ট `dist/`-এ একটি বিতরণও তৈরি করে। ইনভেন্টরির জন্য WinUSB-এর কোনো ড্রাইভার পরিবর্তন বা ইনস্টলেশনের প্রয়োজন নেই: অ্যাপ্লিকেশনটির ডিভাইস ইন্টারফেসের প্রয়োজন নেই।
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

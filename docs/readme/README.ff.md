@@ -6,6 +6,8 @@
 
 **Njaru jooni: `0.2.0`** — yamiroore MIT.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 Explorer USB asliijo binndaaɗo e **Rust**, jogiiɗo jokkorgal niɓɓiɗngal, topolooji yiyteede e ƴeewndorɗe janngeteeɗe. Jaaynde adannde ndee ko ngam Windows 10/11.
@@ -42,7 +44,7 @@ E Rust **1.95+**, kuutorɗe MSVC e kuutorɗe Visual Studio C++ e Windows. Yeruuj
 rtk cargo run --release
 ```
 
-Binnditagol ngol ina feewnee e `target/release/san-usb-viewer.exe`. Binndol `build.ps1` ngol kadi ina sosa renndo e nder `dist/SanUsbViewer/`. Alaa waylo-waylo difoore walla udditgol WinUSB ina haani wonande innde ndee : kuutorgal ngal ɗaɓɓaani jokkondire kaɓirɗe.
+Binnditagol ngol ina feewnee e `target/release/san-usb-viewer.exe`. Binndol `build.ps1` ngol kadi ina sosa renndo e nder `dist/`. Alaa waylo-waylo difoore walla udditgol WinUSB ina haani wonande innde ndee : kuutorgal ngal ɗaɓɓaani jokkondire kaɓirɗe.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

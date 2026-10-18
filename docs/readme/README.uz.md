@@ -6,6 +6,8 @@
 
 **Joriy versiya: `0.2.0`** — MIT litsenziyasi.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 Native USB Explorer **Rust**-da yozilgan, qorong'u interfeys, vizual topologiya va o'qilishi mumkin bo'lgan diagnostika bilan. Windows 10/11 uchun mo'ljallangan birinchi versiya.
@@ -42,7 +44,7 @@ Rust bilan **1.95+**, MSVC asboblar zanjiri va Windows-dagi Visual Studio C++ vo
 rtk cargo run --release
 ```
 
-Mustaqil ikkilik `target/release/san-usb-viewer.exe` da ishlab chiqariladi. `build.ps1` skripti `dist/SanUsbViewer/` da tarqatishni ham yaratadi. Inventarizatsiya uchun drayverlarni o'zgartirish yoki WinUSB-ni o'rnatish shart emas: dastur qurilma interfeyslarini talab qilmaydi.
+Mustaqil ikkilik `target/release/san-usb-viewer.exe` da ishlab chiqariladi. `build.ps1` skripti `dist/` da tarqatishni ham yaratadi. Inventarizatsiya uchun drayverlarni o'zgartirish yoki WinUSB-ni o'rnatish shart emas: dastur qurilma interfeyslarini talab qilmaydi.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

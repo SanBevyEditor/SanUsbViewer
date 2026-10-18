@@ -6,6 +6,8 @@
 
 **વર્તમાન સંસ્કરણ: `0.2.0`** — MIT લાઇસન્સ.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 **રસ્ટ** માં લખાયેલ મૂળ યુએસબી એક્સપ્લોરર, ડાર્ક ઈન્ટરફેસ, વિઝ્યુઅલ ટોપોલોજી અને વાંચી શકાય તેવા ડાયગ્નોસ્ટિક્સ સાથે. વિન્ડોઝ 10/11 માટે બનાવાયેલ પ્રથમ સંસ્કરણ.
@@ -42,7 +44,7 @@
 rtk cargo run --release
 ```
 
-એકલ બાઈનરી `target/release/san-usb-viewer.exe` માં ઉત્પન્ન થાય છે. `build.ps1` સ્ક્રિપ્ટ પણ `dist/SanUsbViewer/` માં વિતરણ બનાવે છે. ઈન્વેન્ટરી માટે કોઈ ડ્રાઈવર ફેરફાર અથવા WinUSB ના ઇન્સ્ટોલેશન જરૂરી નથી: એપ્લિકેશનને ઉપકરણ ઈન્ટરફેસની જરૂર નથી.
+એકલ બાઈનરી `target/release/san-usb-viewer.exe` માં ઉત્પન્ન થાય છે. `build.ps1` સ્ક્રિપ્ટ પણ `dist/` માં વિતરણ બનાવે છે. ઈન્વેન્ટરી માટે કોઈ ડ્રાઈવર ફેરફાર અથવા WinUSB ના ઇન્સ્ટોલેશન જરૂરી નથી: એપ્લિકેશનને ઉપકરણ ઈન્ટરફેસની જરૂર નથી.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

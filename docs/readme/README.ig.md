@@ -6,6 +6,8 @@
 
 ** Ụdị dị ugbu a: `0.2.0` *** - ikike MIT.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 USB Explorer nke ala edere na ** Rust ***, nwere interface gbara ọchịchịrị, topology a na-ahụ anya na nchọpụta enwere ike ịgụ. Ezubere ụdị mbụ maka Windows 10/11.
@@ -42,7 +44,7 @@ Site na Rust **1.95+**, ngwa ọrụ MSVC na Visual Studio C++ na Windows. Ihe a
 rtk cargo run --release
 ```
 
-Emepụtara ọnụọgụ abụọ kwụ ọtọ na `target/release/san-usb-viewer.exe`. Edemede `build.ps1` na-emepụtakwa nkesa na `dist/SanUsbViewer/`. Enweghị mgbanwe ọkwọ ụgbọ ala ma ọ bụ ntinye nke WinUSB dị mkpa maka ngwa ahịa: ngwa ahụ anaghị achọ oghere ngwaọrụ.
+Emepụtara ọnụọgụ abụọ kwụ ọtọ na `target/release/san-usb-viewer.exe`. Edemede `build.ps1` na-emepụtakwa nkesa na `dist/`. Enweghị mgbanwe ọkwọ ụgbọ ala ma ọ bụ ntinye nke WinUSB dị mkpa maka ngwa ahịa: ngwa ahụ anaghị achọ oghere ngwaọrụ.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

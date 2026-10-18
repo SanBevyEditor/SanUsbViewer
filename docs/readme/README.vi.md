@@ -6,6 +6,8 @@
 
 **Phiên bản hiện tại: `0.2.0`** — Giấy phép MIT.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 USB Explorer gốc được viết bằng **Rust**, với giao diện tối, cấu trúc liên kết trực quan và chẩn đoán có thể đọc được. Phiên bản đầu tiên dành cho Windows 10/11.
@@ -42,7 +44,7 @@ Với Rust **1.95+**, chuỗi công cụ MSVC và các công cụ Visual Studio 
 rtk cargo run --release
 ```
 
-Hệ nhị phân độc lập được tạo ra trong `target/release/san-usb-viewer.exe`. Tập lệnh `build.ps1` cũng tạo phân phối trong `dist/SanUsbViewer/`. Không cần sửa đổi trình điều khiển hoặc cài đặt WinUSB cho kho: ứng dụng không yêu cầu giao diện thiết bị.
+Hệ nhị phân độc lập được tạo ra trong `target/release/san-usb-viewer.exe`. Tập lệnh `build.ps1` cũng tạo phân phối trong `dist/`. Không cần sửa đổi trình điều khiển hoặc cài đặt WinUSB cho kho: ứng dụng không yêu cầu giao diện thiết bị.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

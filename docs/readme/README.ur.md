@@ -6,6 +6,8 @@
 
 **موجودہ ورژن: `0.2.0`** — MIT لائسنس۔
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 مقامی USB ایکسپلورر **Rust** میں لکھا گیا ہے، ایک تاریک انٹرفیس، بصری ٹوپولاجی اور پڑھنے کے قابل تشخیص کے ساتھ۔ پہلا ورژن ونڈوز 10/11 کے لیے ہے۔
@@ -42,7 +44,7 @@ Rust **1.95+** کے ساتھ، ونڈوز پر MSVC ٹول چین اور ویژ�
 rtk cargo run --release
 ```
 
-اسٹینڈ اسٹون بائنری `target/release/san-usb-viewer.exe` میں تیار کی گئی ہے۔ `build.ps1` اسکرپٹ `dist/SanUsbViewer/` میں ایک تقسیم بھی تخلیق کرتا ہے۔ انوینٹری کے لیے کسی ڈرائیور میں ترمیم یا WinUSB کی انسٹالیشن ضروری نہیں ہے: ایپلیکیشن کو ڈیوائس انٹرفیس کی ضرورت نہیں ہے۔
+اسٹینڈ اسٹون بائنری `target/release/san-usb-viewer.exe` میں تیار کی گئی ہے۔ `build.ps1` اسکرپٹ `dist/` میں ایک تقسیم بھی تخلیق کرتا ہے۔ انوینٹری کے لیے کسی ڈرائیور میں ترمیم یا WinUSB کی انسٹالیشن ضروری نہیں ہے: ایپلیکیشن کو ڈیوائس انٹرفیس کی ضرورت نہیں ہے۔
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

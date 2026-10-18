@@ -6,6 +6,10 @@
 
 **Current version: `0.2.0`** — MIT license.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
+Extract the archive, then open `SanUsbViewer.exe`. No Rust installation is required.
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 Native USB Explorer written in **Rust**, with a dark interface, visual topology and readable diagnostics. First version intended for Windows 10/11.
@@ -41,7 +45,7 @@ With Rust **1.95+**, the MSVC toolchain and Visual Studio C++ tools on Windows. 
 rtk cargo run --release
 ```
 
-The standalone binary is produced in `target/release/san-usb-viewer.exe`. The `build.ps1` script also creates a distribution in `dist/SanUsbViewer/`. No driver modification or installation of WinUSB is necessary for the inventory: the application does not claim device interfaces.
+The standalone binary is produced in `target/release/san-usb-viewer.exe`. The `build.ps1` script also creates a distribution in `dist/`. No driver modification or installation of WinUSB is necessary for the inventory: the application does not claim device interfaces.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

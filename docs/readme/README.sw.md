@@ -6,6 +6,8 @@
 
 **Toleo la sasa: `0.2.0`** — Leseni ya MIT.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 Native USB Explorer iliyoandikwa kwa **Rust**, yenye kiolesura cheusi, topolojia ya kuona na uchunguzi unaoweza kusomeka. Toleo la kwanza linalokusudiwa Windows 10/11.
@@ -42,7 +44,7 @@ Na Rust **1.95+**, zana za MSVC na Visual Studio C++ kwenye Windows. Mifano hutu
 rtk cargo run --release
 ```
 
-Nambari inayojitegemea inatolewa katika `target/release/san-usb-viewer.exe`. Hati ya `build.ps1` pia inaunda usambazaji katika `dist/SanUsbViewer/`. Hakuna marekebisho ya kiendeshi au usakinishaji wa WinUSB ni muhimu kwa hesabu: programu hauhitaji miingiliano ya kifaa.
+Nambari inayojitegemea inatolewa katika `target/release/san-usb-viewer.exe`. Hati ya `build.ps1` pia inaunda usambazaji katika `dist/`. Hakuna marekebisho ya kiendeshi au usakinishaji wa WinUSB ni muhimu kwa hesabu: programu hauhitaji miingiliano ya kifaa.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

@@ -6,6 +6,8 @@
 
 **Version ya lelo: `0.2.0`** — Licence ya MIT.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 Native USB Explorer ekomami na **Rust**, na interface ya molili, topologie visuelle mpe ba diagnostics oyo ekoki kotangama. Version ya liboso oyo ebongisami mpo na Windows 10/11.
@@ -42,7 +44,7 @@ Na Rust **1.95+**, molongo ya bisaleli ya MSVC mpe bisaleli ya Visual Studio C++
 rtk cargo run --release
 ```
 
-Binaire autonome esalemi na `target/release/san-usb-viewer.exe`. Script ya `build.ps1` esali pe bopanzani na `dist/SanUsbViewer/`. Modification ya pilote to installation ya WinUSB ezali na ntina te mpo na inventaire: application esengaka ba interfaces ya dispositif te.
+Binaire autonome esalemi na `target/release/san-usb-viewer.exe`. Script ya `build.ps1` esali pe bopanzani na `dist/`. Modification ya pilote to installation ya WinUSB ezali na ntina te mpo na inventaire: application esengaka ba interfaces ya dispositif te.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

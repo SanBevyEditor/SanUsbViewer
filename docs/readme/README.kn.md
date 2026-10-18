@@ -6,6 +6,8 @@
 
 ** ಪ್ರಸ್ತುತ ಆವೃತ್ತಿ: `0.2.0`** — MIT ಪರವಾನಗಿ.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 ಸ್ಥಳೀಯ USB ಎಕ್ಸ್‌ಪ್ಲೋರರ್ ಅನ್ನು ಡಾರ್ಕ್ ಇಂಟರ್‌ಫೇಸ್, ದೃಶ್ಯ ಟೋಪೋಲಜಿ ಮತ್ತು ಓದಬಲ್ಲ ಡಯಾಗ್ನೋಸ್ಟಿಕ್‌ಗಳೊಂದಿಗೆ **ರಸ್ಟ್** ನಲ್ಲಿ ಬರೆಯಲಾಗಿದೆ. ವಿಂಡೋಸ್ 10/11 ಗಾಗಿ ಉದ್ದೇಶಿಸಲಾದ ಮೊದಲ ಆವೃತ್ತಿ.
@@ -42,7 +44,7 @@ SuperSpeed ಸಾಮರ್ಥ್ಯಗಳನ್ನು ಸಾಧನವು ಘೋ�
 rtk cargo run --release
 ```
 
-ಸ್ವತಂತ್ರ ಬೈನರಿಯನ್ನು `target/release/san-usb-viewer.exe` ನಲ್ಲಿ ಉತ್ಪಾದಿಸಲಾಗುತ್ತದೆ. `build.ps1` ಸ್ಕ್ರಿಪ್ಟ್ ಸಹ `dist/SanUsbViewer/` ನಲ್ಲಿ ವಿತರಣೆಯನ್ನು ರಚಿಸುತ್ತದೆ. ದಾಸ್ತಾನುಗಳಿಗೆ ಯಾವುದೇ ಚಾಲಕ ಮಾರ್ಪಾಡು ಅಥವಾ WinUSB ಸ್ಥಾಪನೆ ಅಗತ್ಯವಿಲ್ಲ: ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಸಾಧನ ಇಂಟರ್ಫೇಸ್‌ಗಳ ಅಗತ್ಯವಿಲ್ಲ.
+ಸ್ವತಂತ್ರ ಬೈನರಿಯನ್ನು `target/release/san-usb-viewer.exe` ನಲ್ಲಿ ಉತ್ಪಾದಿಸಲಾಗುತ್ತದೆ. `build.ps1` ಸ್ಕ್ರಿಪ್ಟ್ ಸಹ `dist/` ನಲ್ಲಿ ವಿತರಣೆಯನ್ನು ರಚಿಸುತ್ತದೆ. ದಾಸ್ತಾನುಗಳಿಗೆ ಯಾವುದೇ ಚಾಲಕ ಮಾರ್ಪಾಡು ಅಥವಾ WinUSB ಸ್ಥಾಪನೆ ಅಗತ್ಯವಿಲ್ಲ: ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಸಾಧನ ಇಂಟರ್ಫೇಸ್‌ಗಳ ಅಗತ್ಯವಿಲ್ಲ.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

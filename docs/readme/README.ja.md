@@ -6,6 +6,8 @@
 
 **現在のバージョン: `0.2.0`** — MIT ライセンス。
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 **Rust** で書かれたネイティブ USB エクスプローラー。ダーク インターフェイス、ビジュアル トポロジ、読みやすい診断機能を備えています。最初のバージョンは Windows 10/11 向けです。
@@ -42,7 +44,7 @@ Rust **1.95+**、MSVC ツールチェーン、および Windows 上の Visual St
 rtk cargo run --release
 ```
 
-スタンドアロン バイナリは `target/release/san-usb-viewer.exe` で作成されます。 `build.ps1` スクリプトは、`dist/SanUsbViewer/` にディストリビューションも作成します。インベントリにはドライバの変更や WinUSB のインストールは必要ありません。アプリケーションはデバイス インターフェイスを必要としません。
+スタンドアロン バイナリは `target/release/san-usb-viewer.exe` で作成されます。 `build.ps1` スクリプトは、`dist/` にディストリビューションも作成します。インベントリにはドライバの変更や WinUSB のインストールは必要ありません。アプリケーションはデバイス インターフェイスを必要としません。
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

@@ -6,6 +6,8 @@
 
 **نسخه فعلی: `0.2.0`** — مجوز MIT.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 USB Explorer بومی نوشته شده در **Rust**، با رابط تاریک، توپولوژی بصری و تشخیص قابل خواندن. اولین نسخه در نظر گرفته شده برای ویندوز 10/11.
@@ -42,7 +44,7 @@ USB Explorer بومی نوشته شده در **Rust**، با رابط تاریک
 rtk cargo run --release
 ```
 
-باینری مستقل در `target/release/san-usb-viewer.exe` تولید شده است. اسکریپت `build.ps1` همچنین یک توزیع در `dist/SanUsbViewer/` ایجاد می کند. هیچ تغییر درایور یا نصب WinUSB برای موجودی لازم نیست: برنامه به رابط های دستگاه نیاز ندارد.
+باینری مستقل در `target/release/san-usb-viewer.exe` تولید شده است. اسکریپت `build.ps1` همچنین یک توزیع در `dist/` ایجاد می کند. هیچ تغییر درایور یا نصب WinUSB برای موجودی لازم نیست: برنامه به رابط های دستگاه نیاز ندارد.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

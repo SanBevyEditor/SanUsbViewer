@@ -6,6 +6,8 @@
 
 **موجوده ورزن: `0.2.0`** — MIT لائسنس.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 اصلي USB ايڪسپلورر **Rust** ۾ لکيل آهي، هڪ اونداهي انٽرفيس، بصري ٽوپولوجي ۽ پڙهڻ جي قابل تشخيص سان. پهريون نسخو ونڊوز 10/11 لاءِ ارادو ڪيو ويو.
@@ -42,7 +44,7 @@ Rust **1.95+** سان، ونڊوز تي MSVC ٽول چين ۽ Visual Studio C++ 
 rtk cargo run --release
 ```
 
-اسٽينڊل بائنري `target/release/san-usb-viewer.exe` ۾ پيدا ڪئي وئي آهي. `build.ps1` اسڪرپٽ پڻ `dist/SanUsbViewer/` ۾ تقسيم ٺاهي ٿي. انوینٽري لاءِ WinUSB جي ڪا به ڊرائيور ترميم يا انسٽاليشن ضروري ناهي: ايپليڪيشن کي ڊوائيس انٽرفيس جي ضرورت ناهي.
+اسٽينڊل بائنري `target/release/san-usb-viewer.exe` ۾ پيدا ڪئي وئي آهي. `build.ps1` اسڪرپٽ پڻ `dist/` ۾ تقسيم ٺاهي ٿي. انوینٽري لاءِ WinUSB جي ڪا به ڊرائيور ترميم يا انسٽاليشن ضروري ناهي: ايپليڪيشن کي ڊوائيس انٽرفيس جي ضرورت ناهي.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

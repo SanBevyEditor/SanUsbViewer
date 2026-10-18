@@ -6,6 +6,8 @@
 
 **നിലവിലെ പതിപ്പ്: `0.2.0`** — MIT ലൈസൻസ്.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 ഇരുണ്ട ഇൻ്റർഫേസ്, വിഷ്വൽ ടോപ്പോളജി, റീഡബിൾ ഡയഗ്നോസ്റ്റിക്സ് എന്നിവയ്ക്കൊപ്പം **റസ്റ്റ്**-ൽ എഴുതിയ നേറ്റീവ് യുഎസ്ബി എക്സ്പ്ലോറർ. വിൻഡോസ് 10/11-ന് ഉദ്ദേശിച്ചുള്ള ആദ്യ പതിപ്പ്.
@@ -42,7 +44,7 @@ Rust **1.95+** ഉപയോഗിച്ച്, MSVC ടൂൾചെയിൻ, Wi
 rtk cargo run --release
 ```
 
-`target/release/san-usb-viewer.exe`-ലാണ് ഒറ്റപ്പെട്ട ബൈനറി നിർമ്മിക്കുന്നത്. `build.ps1` സ്ക്രിപ്റ്റ് `dist/SanUsbViewer/`-ൽ ഒരു വിതരണവും സൃഷ്ടിക്കുന്നു. ഇൻവെൻ്ററിക്കായി WinUSB-ൻ്റെ ഡ്രൈവർ പരിഷ്ക്കരണമോ ഇൻസ്റ്റാളേഷനോ ആവശ്യമില്ല: അപ്ലിക്കേഷന് ഉപകരണ ഇൻ്റർഫേസുകൾ ആവശ്യമില്ല.
+`target/release/san-usb-viewer.exe`-ലാണ് ഒറ്റപ്പെട്ട ബൈനറി നിർമ്മിക്കുന്നത്. `build.ps1` സ്ക്രിപ്റ്റ് `dist/`-ൽ ഒരു വിതരണവും സൃഷ്ടിക്കുന്നു. ഇൻവെൻ്ററിക്കായി WinUSB-ൻ്റെ ഡ്രൈവർ പരിഷ്ക്കരണമോ ഇൻസ്റ്റാളേഷനോ ആവശ്യമില്ല: അപ്ലിക്കേഷന് ഉപകരണ ഇൻ്റർഫേസുകൾ ആവശ്യമില്ല.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

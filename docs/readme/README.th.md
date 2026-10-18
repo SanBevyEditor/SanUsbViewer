@@ -6,6 +6,8 @@
 
 **เวอร์ชันปัจจุบัน: `0.2.0`** — ใบอนุญาต MIT
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 Native USB Explorer เขียนด้วย **Rust** พร้อมอินเทอร์เฟซสีเข้ม โทโพโลยีแบบภาพ และการวินิจฉัยที่อ่านได้ เวอร์ชันแรกมีไว้สำหรับ Windows 10/11
@@ -42,7 +44,7 @@ Native USB Explorer เขียนด้วย **Rust** พร้อมอิ�
 rtk cargo run --release
 ```
 
-ไบนารีแบบสแตนด์อโลนถูกสร้างขึ้นใน `target/release/san-usb-viewer.exe` สคริปต์ `build.ps1` ยังสร้างการแจกจ่ายใน `dist/SanUsbViewer/` ไม่จำเป็นต้องดัดแปลงไดรเวอร์หรือติดตั้ง WinUSB สำหรับสินค้าคงคลัง: แอปพลิเคชันไม่ต้องการอินเทอร์เฟซอุปกรณ์
+ไบนารีแบบสแตนด์อโลนถูกสร้างขึ้นใน `target/release/san-usb-viewer.exe` สคริปต์ `build.ps1` ยังสร้างการแจกจ่ายใน `dist/` ไม่จำเป็นต้องดัดแปลงไดรเวอร์หรือติดตั้ง WinUSB สำหรับสินค้าคงคลัง: แอปพลิเคชันไม่ต้องการอินเทอร์เฟซอุปกรณ์
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

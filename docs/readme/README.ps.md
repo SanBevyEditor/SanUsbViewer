@@ -6,6 +6,8 @@
 
 **اوسني نسخه: `0.2.0`** — د MIT جواز.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 اصلي USB اکسپلورر په **Rust** کې لیکل شوی، د تیاره انٹرفیس، لید ټوپولوژي او د لوستلو وړ تشخیص سره. لومړۍ نسخه د وینډوز 10/11 لپاره ټاکل شوې.
@@ -42,7 +44,7 @@ SuperSpeed وړتیاوې د وسیلې لخوا اعلان شوي. د SuperSpee
 rtk cargo run --release
 ```
 
-سټنډول بائنری په `target/release/san-usb-viewer.exe` کې تولید شوی. د `build.ps1` سکریپټ هم په `dist/SanUsbViewer/` کې توزیع جوړوي. د موجوداتو لپاره د WinUSB هیڅ ډرایور ترمیم یا نصب کول اړین ندي: غوښتنلیک د وسیلې انٹرفیس ته اړتیا نلري.
+سټنډول بائنری په `target/release/san-usb-viewer.exe` کې تولید شوی. د `build.ps1` سکریپټ هم په `dist/` کې توزیع جوړوي. د موجوداتو لپاره د WinUSB هیڅ ډرایور ترمیم یا نصب کول اړین ندي: غوښتنلیک د وسیلې انٹرفیس ته اړتیا نلري.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

@@ -6,6 +6,8 @@
 
 **वर्तमान संस्करण: `0.2.0`** — एमआईटी लाइसेंस।
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 **रस्ट** मे लिखल गेल नेटिव यूएसबी एक्सप्लोरर, एकटा डार्क इंटरफेस, विजुअल टोपोलॉजी आ पठनीय डायग्नोस्टिक्स कें साथ. पहिल संस्करण जे विंडोज 10/11 क लेल इरादा अछि।
@@ -42,7 +44,7 @@ SuperSpeed क्षमता डिवाइस द्वारा घोषि
 rtk cargo run --release
 ```
 
-स्टैंडअलोन बाइनरी `target/release/san-usb-viewer.exe` मे उत्पादित छै. `build.ps1` स्क्रिप्ट `dist/SanUsbViewer/` मे एकटा वितरण सेहो बनाबैत अछि. इन्वेंट्री कें लेल कोनों ड्राइवर संशोधन या WinUSB कें इंस्टॉलेशन आवश्यक नहि छै: एप्लीकेशन कें लेल डिवाइस इंटरफेस कें आवश्यकता नहि छै.
+स्टैंडअलोन बाइनरी `target/release/san-usb-viewer.exe` मे उत्पादित छै. `build.ps1` स्क्रिप्ट `dist/` मे एकटा वितरण सेहो बनाबैत अछि. इन्वेंट्री कें लेल कोनों ड्राइवर संशोधन या WinUSB कें इंस्टॉलेशन आवश्यक नहि छै: एप्लीकेशन कें लेल डिवाइस इंटरफेस कें आवश्यकता नहि छै.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

@@ -6,6 +6,8 @@
 
 **தற்போதைய பதிப்பு: `0.2.0`** — MIT உரிமம்.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 **ரஸ்ட்** இல் எழுதப்பட்ட நேட்டிவ் யூ.எஸ்.பி எக்ஸ்ப்ளோரர், இருண்ட இடைமுகம், காட்சி இடவியல் மற்றும் படிக்கக்கூடிய கண்டறிதல். விண்டோஸ் 10/11 க்கான முதல் பதிப்பு.
@@ -42,7 +44,7 @@
 rtk cargo run --release
 ```
 
-தனித்த பைனரி `target/release/san-usb-viewer.exe` இல் தயாரிக்கப்படுகிறது. `build.ps1` ஸ்கிரிப்ட் `dist/SanUsbViewer/` இல் விநியோகத்தையும் உருவாக்குகிறது. சரக்குகளுக்கு இயக்கி மாற்றம் அல்லது WinUSB இன் நிறுவல் தேவையில்லை: பயன்பாட்டிற்கு சாதன இடைமுகங்கள் தேவையில்லை.
+தனித்த பைனரி `target/release/san-usb-viewer.exe` இல் தயாரிக்கப்படுகிறது. `build.ps1` ஸ்கிரிப்ட் `dist/` இல் விநியோகத்தையும் உருவாக்குகிறது. சரக்குகளுக்கு இயக்கி மாற்றம் அல்லது WinUSB இன் நிறுவல் தேவையில்லை: பயன்பாட்டிற்கு சாதன இடைமுகங்கள் தேவையில்லை.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

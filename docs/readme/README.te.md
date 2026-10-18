@@ -6,6 +6,8 @@
 
 **ప్రస్తుత వెర్షన్: `0.2.0`** — MIT లైసెన్స్.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 డార్క్ ఇంటర్‌ఫేస్, విజువల్ టోపోలాజీ మరియు రీడబుల్ డయాగ్నస్టిక్‌లతో **రస్ట్**లో వ్రాయబడిన స్థానిక USB ఎక్స్‌ప్లోరర్. మొదటి వెర్షన్ Windows 10/11 కోసం ఉద్దేశించబడింది.
@@ -42,7 +44,7 @@ SuperSpeed సామర్థ్యాలు పరికరం ద్వార�
 rtk cargo run --release
 ```
 
-స్వతంత్ర బైనరీ `target/release/san-usb-viewer.exe`లో ఉత్పత్తి చేయబడింది. `build.ps1` స్క్రిప్ట్ `dist/SanUsbViewer/`లో పంపిణీని కూడా సృష్టిస్తుంది. జాబితా కోసం WinUSB యొక్క డ్రైవర్ సవరణ లేదా ఇన్‌స్టాలేషన్ అవసరం లేదు: అనువర్తనానికి పరికర ఇంటర్‌ఫేస్‌లు అవసరం లేదు.
+స్వతంత్ర బైనరీ `target/release/san-usb-viewer.exe`లో ఉత్పత్తి చేయబడింది. `build.ps1` స్క్రిప్ట్ `dist/`లో పంపిణీని కూడా సృష్టిస్తుంది. జాబితా కోసం WinUSB యొక్క డ్రైవర్ సవరణ లేదా ఇన్‌స్టాలేషన్ అవసరం లేదు: అనువర్తనానికి పరికర ఇంటర్‌ఫేస్‌లు అవసరం లేదు.
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

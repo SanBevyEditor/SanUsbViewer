@@ -6,6 +6,8 @@
 
 ** ସାମ୍ପ୍ରତିକ ସଂସ୍କରଣ: `0.2.0` ** - MIT ଲାଇସେନ୍ସ |
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 ଏକ ଅନ୍ଧାର ଇଣ୍ଟରଫେସ୍, ଭିଜୁଆଲ୍ ଟପୋଲୋଜି ଏବଂ ପଠନୀୟ ନିଦାନ ସହିତ ** ରୁଷ୍ଟ ** ରେ ଲେଖାଯାଇଥିବା ଦେଶୀ USB ଏକ୍ସପ୍ଲୋରର | ୱିଣ୍ଡୋଜ୍ 10/11 ପାଇଁ ପ୍ରଥମ ସଂସ୍କରଣ |
@@ -42,7 +44,7 @@
 rtk cargo run --release
 ```
 
-ସ୍ୱତନ୍ତ୍ର ବାଇନାରୀ `target/release/san-usb-viewer.exe` ରେ ଉତ୍ପାଦିତ ହୁଏ | `build.ps1` ସ୍କ୍ରିପ୍ଟ ମଧ୍ୟ `dist/SanUsbViewer/` ରେ ଏକ ବଣ୍ଟନ ସୃଷ୍ଟି କରେ | ଭଣ୍ଡାର ପାଇଁ କ driver ଣସି ଡ୍ରାଇଭର ପରିବର୍ତ୍ତନ କିମ୍ବା WinUSB ର ସଂସ୍ଥାପନ ଆବଶ୍ୟକ ନାହିଁ: ପ୍ରୟୋଗ ଉପକରଣ ଇଣ୍ଟରଫେସ ଆବଶ୍ୟକ କରେନାହିଁ |
+ସ୍ୱତନ୍ତ୍ର ବାଇନାରୀ `target/release/san-usb-viewer.exe` ରେ ଉତ୍ପାଦିତ ହୁଏ | `build.ps1` ସ୍କ୍ରିପ୍ଟ ମଧ୍ୟ `dist/` ରେ ଏକ ବଣ୍ଟନ ସୃଷ୍ଟି କରେ | ଭଣ୍ଡାର ପାଇଁ କ driver ଣସି ଡ୍ରାଇଭର ପରିବର୍ତ୍ତନ କିମ୍ବା WinUSB ର ସଂସ୍ଥାପନ ଆବଶ୍ୟକ ନାହିଁ: ପ୍ରୟୋଗ ଉପକରଣ ଇଣ୍ଟରଫେସ ଆବଶ୍ୟକ କରେନାହିଁ |
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

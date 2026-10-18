@@ -6,6 +6,8 @@
 
 ** የአሁኑ ስሪት: `0.2.0` *** - MIT ፈቃድ.
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 ቤተኛ ዩኤስቢ ኤክስፕሎረር በ ** ዝገት** የተፃፈ፣ በጨለማ በይነገጽ፣ በእይታ ቶፖሎጂ እና ሊነበብ የሚችል ምርመራ። ለዊንዶውስ 10/11 የመጀመሪያ ስሪት.
@@ -42,7 +44,7 @@
 rtk cargo run --release
 ```
 
-ራሱን የቻለ ሁለትዮሽ የሚመረተው በ`target/release/san-usb-viewer.exe` ነው። የ`build.ps1` ስክሪፕትም በ`dist/SanUsbViewer/` ውስጥ ስርጭትን ይፈጥራል። ለክምችቱ ምንም የአሽከርካሪ ማሻሻያ ወይም የ WinUSB መጫን አያስፈልግም፡ አፕሊኬሽኑ የመሳሪያ በይነገጾች አያስፈልግም።
+ራሱን የቻለ ሁለትዮሽ የሚመረተው በ`target/release/san-usb-viewer.exe` ነው። የ`build.ps1` ስክሪፕትም በ`dist/` ውስጥ ስርጭትን ይፈጥራል። ለክምችቱ ምንም የአሽከርካሪ ማሻሻያ ወይም የ WinUSB መጫን አያስፈልግም፡ አፕሊኬሽኑ የመሳሪያ በይነገጾች አያስፈልግም።
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export

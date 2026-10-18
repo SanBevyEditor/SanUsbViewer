@@ -6,6 +6,8 @@
 
 **ਮੌਜੂਦਾ ਸੰਸਕਰਣ: `0.2.0`** — MIT ਲਾਇਸੰਸ।
 
+**[Windows 10/11 x64 — v0.2.0 (.zip)](https://github.com/SanBevyEditor/SanUsbViewer/releases/download/v0.2.0/SanUsbViewer-v0.2.0-windows-x86_64.zip)**
+
 ![San USB Viewer](../../assets/screenshots/SanUsbViewer.jpg)
 
 ਨੇਟਿਵ USB ਐਕਸਪਲੋਰਰ **Rust** ਵਿੱਚ ਲਿਖਿਆ, ਇੱਕ ਡਾਰਕ ਇੰਟਰਫੇਸ, ਵਿਜ਼ੂਅਲ ਟੋਪੋਲੋਜੀ ਅਤੇ ਪੜ੍ਹਨਯੋਗ ਡਾਇਗਨੌਸਟਿਕਸ ਦੇ ਨਾਲ। ਵਿੰਡੋਜ਼ 10/11 ਲਈ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਪਹਿਲਾ ਸੰਸਕਰਣ।
@@ -42,7 +44,7 @@ Rust **1.95+** ਦੇ ਨਾਲ, ਵਿੰਡੋਜ਼ ਉੱਤੇ MSVC ਟੂ�
 rtk cargo run --release
 ```
 
-ਸਟੈਂਡਅਲੋਨ ਬਾਈਨਰੀ `target/release/san-usb-viewer.exe` ਵਿੱਚ ਤਿਆਰ ਕੀਤੀ ਗਈ ਹੈ। `build.ps1` ਸਕ੍ਰਿਪਟ `dist/SanUsbViewer/` ਵਿੱਚ ਇੱਕ ਵੰਡ ਵੀ ਬਣਾਉਂਦੀ ਹੈ। ਵਸਤੂ ਸੂਚੀ ਲਈ ਕੋਈ ਡਰਾਈਵਰ ਸੋਧ ਜਾਂ WinUSB ਦੀ ਸਥਾਪਨਾ ਜ਼ਰੂਰੀ ਨਹੀਂ ਹੈ: ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਡਿਵਾਈਸ ਇੰਟਰਫੇਸ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।
+ਸਟੈਂਡਅਲੋਨ ਬਾਈਨਰੀ `target/release/san-usb-viewer.exe` ਵਿੱਚ ਤਿਆਰ ਕੀਤੀ ਗਈ ਹੈ। `build.ps1` ਸਕ੍ਰਿਪਟ `dist/` ਵਿੱਚ ਇੱਕ ਵੰਡ ਵੀ ਬਣਾਉਂਦੀ ਹੈ। ਵਸਤੂ ਸੂਚੀ ਲਈ ਕੋਈ ਡਰਾਈਵਰ ਸੋਧ ਜਾਂ WinUSB ਦੀ ਸਥਾਪਨਾ ਜ਼ਰੂਰੀ ਨਹੀਂ ਹੈ: ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਡਿਵਾਈਸ ਇੰਟਰਫੇਸ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।
 
 ```powershell
 # Démonstration avec données fictives, identifiées dans l’interface et l’export
